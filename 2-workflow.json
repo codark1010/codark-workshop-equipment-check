@@ -1,0 +1,38 @@
+{
+  "name": "Workshop Equipment Check",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "4433dbb9-2a28-49cb-a2bc-ec172e512f5e",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "content": "## Workshop Test\n\nInvented equipment records only.\nNo outside services connected."
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -352,
+        -96
+      ],
+      "typeVersion": 1,
+      "id": "4fd9c01c-b426-428a-b1e2-b847f23dbd1b",
+      "name": "Sticky Note"
+    }
+  ],
+  "pinData": {},
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "nodeGroups": [],
+  "tags": []
+}
